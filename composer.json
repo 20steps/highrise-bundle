@@ -14,7 +14,7 @@
     ],
     "require": {
         "symfony/framework-bundle": "~2.3",
-        "misd/guzzle-bundle": "~1.0",
+        "misd/guzzle-bundle": "~1.0"
     },
     "autoload": {
         "psr-0": {
