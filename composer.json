@@ -1,0 +1,25 @@
+{
+    "name": "20steps/highrise-bundle",
+    "type": "symfony-bundle",
+    "description": "Highrise API tbd"
+    "keywords": ["datatables", "sf2", "symfony2", "doctrine", "table", "entity"],
+    "homepage": "https://github.com/20steps/highrise-bundle",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Sascha Meissner",
+            "email": "sascha.meissner@20steps.de",
+            "homepage": "http://www.docinsider.de"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.3",
+        "misd/guzzle-bundle": "~1.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "twentysteps\\Bundle\\HighriseBundle": ""
+        }
+    },
+    "target-dir": "twentysteps/Bundle/HighriseBundle"
+}

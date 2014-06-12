@@ -1,0 +1,27 @@
+{
+    "name": "20steps/highrise-bundle",
+    "type": "symfony-bundle",
+    "description": "Highrise API tbd"
+    "keywords": ["datatables", "sf2", "symfony2", "doctrine", "table", "entity"],
+    "homepage": "https://github.com/20steps/autotables-bundle",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Marc Ewert",
+            "email": "marc.ewert@20steps.de",
+            "homepage": "http://20steps.de"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.3",
+        "misd/guzzle-bundle": "~1.0",
+        "brandonwamboldt/utilphp": "dev-master",
+        "danielstjules/stringy": ">=1.5.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "twentysteps\\Bundle\\AutoTablesBundle": ""
+        }
+    },
+    "target-dir": "twentysteps/Bundle/AutoTablesBundle"
+}
