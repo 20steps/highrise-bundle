@@ -1,7 +1,7 @@
 {
     "name": "20steps/highrise-bundle",
     "type": "symfony-bundle",
-    "description": "Highrise API tbd",
+    "description": "Highrise API Wrapper for Symfony2 based applications",
     "keywords": ["datatables", "sf2", "symfony2", "doctrine", "table", "entity"],
     "homepage": "https://github.com/20steps/highrise-bundle",
     "license": "LGPL-3.0+",
